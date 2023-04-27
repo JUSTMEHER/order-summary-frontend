@@ -1,0 +1,127 @@
+body{
+    background-color:hsl(225, 100%, 94%) ;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.card{
+    width:400px;
+    height:650px;
+    background-color:white ;
+    position: absolute;
+    top:80px;
+    border-radius: 20px;
+}
+.img1{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width:400px;
+}
+h1{
+    position: absolute;
+    left:70px;
+    font-weight: 900;
+    color:hsl(223, 47%, 23%);
+}
+.p1{
+    position: absolute;
+    top:270px;
+    left:70px;
+    font-weight: 500;
+    font-size: 16px;
+    color:hsl(224, 23%, 55%);
+}
+.p1{
+    position: absolute;
+    top:270px;
+    left:40px;
+    font-size: 18px;
+    text-align: center;
+}
+.mobile{
+    visibility: hidden;
+}
+@media(max-width:600px){
+    .mobile{
+        visibility: visible;
+    }
+    .pc{
+        visibility: hidden;
+    }
+}
+.plan-box{
+    width:350px;
+    height:90px;
+    background-color:hsl(225, 100%, 98%);
+    position: absolute;
+    top:380px;
+    left:25px;
+    border-radius: 20px;
+
+}
+.icon{
+    position: absolute;
+    top:20px;
+    left:30px;
+}
+.plan-annual{
+    position: absolute;
+    left:90px;
+    top:5px;
+    font-size: 18px;
+    color:hsl(223, 47%, 23%);
+}
+.price{
+    position: absolute;
+    top:30px;
+    left:90px;
+    color: hsl(224, 23%, 55%);
+}
+span{
+    color:hsl(245, 75%, 52%);
+    text-decoration: underline;
+    cursor: pointer;
+    position: absolute;
+    top:-12px;
+    left:150px;
+}
+span:hover{
+    text-decoration: none;
+    opacity: .7;
+}
+.proceed{
+    height:50px;
+    width: 350px;
+    background-color: hsl(245, 75%, 52%);
+    position: absolute;
+    left:25px;
+    top:500px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 30px 0px hsl(245, 68%, 63%);
+}
+.payment{
+    text-align: center;
+    color:white;
+    font-weight: 700;
+    
+}
+.cancel{
+    
+    top:565px;
+    position: absolute;
+    left:140px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+
+}
+.cancel:hover{
+    color:hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+.proceed:hover{
+    opacity: .7;
+    cursor: pointer;
+}
